@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521292734856",
+    "project_id": "pic-to-text-cc19f",
+    "storage_bucket": "pic-to-text-cc19f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521292734856:android:590a59a077273c6647da3d",
+        "android_client_info": {
+          "package_name": "com.example.text_recognition_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpOhjn-PyAln4K-E4vEV3tM4cotqTbBj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
