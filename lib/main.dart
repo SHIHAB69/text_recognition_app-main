@@ -10,10 +10,10 @@ void main() async {
   Platform.isAndroid
        ? await Firebase.initializeApp(
           options: const FirebaseOptions(
-              apiKey: 'AIzaSyDrGIZXoKjifT9LPyxmtAdZHrRvmxS2gEA',//please enter the api key from google_services.jsson
-              appId: '1:643652532883:android:454a9ab4530cebda8d6b66', //please enter the App Id from google_services.jsson
-              messagingSenderId: '643652532883',//please enter the MessageId from google_services.jsson
-              projectId: 'noteapp-76019')) //please enter the ProjectId from google_services.jsson
+              apiKey: 'AIzaSyCpOhjn-PyAln4K-E4vEV3tM4cotqTbBj4',//please enter the api key from google_services.jsson
+              appId: '1:521292734856:android:590a59a077273c6647da3d', //please enter the App Id from google_services.jsson
+              messagingSenderId: '521292734856',//please enter the MessageId from google_services.jsson
+              projectId: 'pic-to-text-cc19f')) //please enter the ProjectId from google_services.jsson
       : await Firebase.initializeApp();
   runApp(const MyApp());
 }
