@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
       await Firebase.initializeApp();
       final firestore = FirebaseFirestore.instance;
       await firestore.collection('extracted_text').add({
-        'text': text,
+        'text': text, //please add the respective path from firebase/Firestore
       });
       print('Text saved to Firestore.');
 
